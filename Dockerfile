@@ -1,4 +1,5 @@
- Base image
+# jenkins with helm
+# Base image
 FROM jenkins/jenkins:lts
 
 # Install Tini
