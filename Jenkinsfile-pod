@@ -5,7 +5,7 @@ pipeline {
         stage('helm deploy') {
             steps {
                 sh 'cd /var/jenkins_home/workspace/nginx'
-                sh 'sudo helm install nginx-chart nginx/ --values nginx/values.yaml'
+                sh 'helm install nginx-chart nginx/ --values nginx/values.yaml'
                 
             }
         }
