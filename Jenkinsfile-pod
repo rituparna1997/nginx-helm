@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh 'cd /var/jenkins_home/workspace/nginx'
                 sh 'helm list'
-                sh 'helm install nginx-chart nginx/ --values nginx/values.yaml'
+                sh 'helm install nginx-chart2 nginx/ --values nginx/values.yaml'
                 
             }
         }
