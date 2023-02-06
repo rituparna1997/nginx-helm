@@ -11,8 +11,8 @@ image:
   tag: ""
 
 imagePullSecrets: []
-nameOverride: "nginx-app"
-fullnameOverride: "nginx-chart2"
+nameOverride: "nginx-app-pro"
+fullnameOverride: "nginx-chart-pro"
 
 serviceAccount:
   # Specifies whether a service account should be created
